@@ -1,4 +1,4 @@
-package go_imports
+package imports
 
 import (
 	"go/ast"
