@@ -52,7 +52,7 @@ func TestOptimizeImports(t *testing.T) {
 
 			t.Run(testFile+"/"+name, func(t *testing.T) {
 				Optimize(l, f, "a.b.c/project", []string{"a.b.c/company"})
-				have := l.FormatFile(f.File)
+				have := f.Format()
 
 				if strings.TrimSpace(want) != strings.TrimSpace(have) {
 					diff := Diff("have.go", []byte(have), "want.go", []byte(want))
