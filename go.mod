@@ -3,7 +3,7 @@ module github.com/goghcrow/go-imports
 go 1.19
 
 require (
-	github.com/goghcrow/go-loader v0.0.4-0.20240301165551-a79085e95cdf
+	github.com/goghcrow/go-loader v0.0.4-0.20240307175704-ec16a89833d2
 	golang.org/x/tools v0.18.0
 )
 
